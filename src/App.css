@@ -1,0 +1,266 @@
+/* Estilos Header */
+/* header{
+    width: 48rem;
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+/* Estilos generales para el header */
+header{
+    margin: 0 auto;
+}
+
+.about{
+    font-size: 18px;
+}
+
+.separado {
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 18px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.picture-container img,
+.picture-container source {
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+
+/* Estilos CardProfile.jsx */
+.card {
+    margin: 5vh auto 0 auto;
+    max-width: 300px;
+    height: 530px;
+    border-radius: 20px;
+    padding: 5px;
+    /* box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px; */
+    background-image:  linear-gradient(90deg, rgb(67 120 123) 16%, rgb(33 76 89) 54%, rgb(23 81 93) 100%);
+}
+  
+.card__content {
+    background: rgb(52 53 61);
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+}
+
+.name{
+    font-family: "Fredoka One", cursive;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    background-image: linear-gradient(90deg, rgb(145 212 229) 0%, rgb(100 221 150) 84%, rgb(115 85 167) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 100%;
+}
+
+
+
+.card__content p{
+    padding: 3px;
+}
+
+/* Estilos CardSocials.jsx */
+.container_social_card{
+    display: flex;
+    gap: 20px;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 8px;
+}
+
+.social_card {
+    transition: transform 0.3s ease; /* Agregar transición para el estado normal también */
+}
+
+.social_card:hover{
+    transform: scale(1.2);
+}
+
+.Title{
+    font-size: 2.1rem;
+    margin-bottom: 25px;
+}
+
+
+/* Estilos separador hr */
+.custom-hr {
+    border: none;
+    border-top: 1px dotted #737477;
+    margin: 3rem auto;
+    border-radius: 4px;
+    width: 95%;
+}
+
+
+/* Experience */
+.experience{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.category{
+    color: rgb(145 212 229);
+    font-size: 1.5rem;
+}
+
+.title-project{
+    margin-bottom: 14px;
+    font-size: 2.1rem;
+}
+
+/* Proyects */
+.container-project{
+    margin-bottom: 5rem;
+}
+
+.projects{
+    margin: 0 auto 25px;
+    padding: 0;
+    display: grid;
+    width: 100%;
+    max-width: 350px;
+    min-height: 250px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 32px;
+}
+
+
+.img-project {
+    width: 100%;
+    height: 100%;
+    max-height: 260px;
+    min-height: 260px;
+    border-radius: 8px;
+}
+
+.project-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.project-details p{
+    font-size: 18px;
+}
+
+.project-button{
+    width: 50%;
+    background-color: #174351;
+}
+
+.icons{
+    display: flex;
+    gap: 15px;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes appear {
+    from {
+        opacity: 0;
+        -webkit-transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1);
+    }
+}
+
+.container-project{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+}
+
+/* EMAIL */
+.container-email{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-email{
+    margin-top: 14px;
+    display: flex;
+    gap: 7px;
+    font-size: 14px;
+}
+
+.project-h1{
+    margin: 55px auto 40px;
+}
+
+.contact-button {
+    background-color: #276951;
+    transition: transform 0.25s ease-in-out;
+}
+
+.contact-button:hover {
+    transform: scale(1.1);
+}
+
+
+/* @media */
+/* Aplicar solo en pantallas de 802px o más */
+@media (max-width: 802px) {
+    .project-h1{
+        width: 81%;
+    }
+}
+@media (min-width: 802px) {
+    .experience{
+        width: 48rem;
+    }
+
+    header {
+        width: 48rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .socials{
+        margin-top: 0px;
+    }
+    .custom-hr{
+        margin: 4rem auto;
+        width: 48rem;
+    }
+    .container_social_card {
+        flex-direction: column;
+    }
+    .projects{
+        width: 100%;
+        max-width: 48rem;
+    }
+}
