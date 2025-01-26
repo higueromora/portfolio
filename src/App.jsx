@@ -6,7 +6,7 @@ import CVPDF from './assets/CV.pdf';
 import PHP from './assets/PHP.svg';
 import SQL from './assets/SQL.svg';
 import Laravel from './assets/Laravel.svg';
-import JQUERY from './assets/JQUERY.svg';
+import jq from './assets/jq.svg';
 import REACT from './assets/REACT.svg';
 import SASS from './assets/SASS.svg';
 import CSS from './assets/CSS.svg';
@@ -60,7 +60,7 @@ function App() {
         icons={[
           { icon: CSS, name: 'CSS' },
           { icon: JAVASCRIPT, name: 'JavaScript' },
-          { icon: JQUERY, name: 'jQuery' },
+          { icon: jq, name: 'jQuery' },
           { icon: PHP, name: 'PHP' },
           { icon: SQL, name: 'MSQL' }
         ]}
