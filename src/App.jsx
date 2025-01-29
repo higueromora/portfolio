@@ -5,7 +5,7 @@ import linkedin from './assets/Linkedin.svg';
 // import CVPDF from './assets/CV.pdf';
 import PHP from './assets/PHP.svg';
 import SQL from './assets/SQL.svg';
-import node from './assets/node.svg';
+import NODE from './assets/node.svg';
 import Laravel from './assets/Laravel.svg';
 import JQUERY from './assets/JQUERY.svg';
 import REACT from './assets/REACT.svg';
@@ -22,8 +22,8 @@ import LinkApp from './assets/LinksApp.webp';
 import LinkApp2 from './assets/LinksApp.png';
 import POKEAPI from './assets/POKEAPI.webp';
 import POKEAPI2 from './assets/POKEAPI.png';
-import cat1 from './assets/Cat_ATTACK.webp';
-import cat2 from './assets/Cat_ATTACK.JPG';
+import cat1 from './assets/cat.webp';
+import cat2 from './assets/cat.jpg';
 import './App.css'
 import Experience from './components/Experience'
 import { SocialCard } from './components/SocialCard'
@@ -64,7 +64,7 @@ function App() {
           { icon: CSS, name: 'CSS' },
           { icon: JAVASCRIPT, name: 'JavaScript' },
           { icon: REACT, name: 'React' },
-          { icon: node, name: 'Node.JS' }
+          { icon: NODE, name: 'Node.JS' }
         ]}
         viewCodeLink="https://github.com/higueromora/multiplayerGame"
       />
