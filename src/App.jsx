@@ -5,6 +5,7 @@ import linkedin from './assets/Linkedin.svg';
 // import CVPDF from './assets/CV.pdf';
 import PHP from './assets/PHP.svg';
 import SQL from './assets/SQL.svg';
+import node from './assets/node.svg';
 import Laravel from './assets/Laravel.svg';
 import JQUERY from './assets/JQUERY.svg';
 import REACT from './assets/REACT.svg';
@@ -21,6 +22,8 @@ import LinkApp from './assets/LinksApp.webp';
 import LinkApp2 from './assets/LinksApp.png';
 import POKEAPI from './assets/POKEAPI.webp';
 import POKEAPI2 from './assets/POKEAPI.png';
+import cat1 from './assets/Cat_ATTACK.webp';
+import cat2 from './assets/Cat_ATTACK.JPG';
 import './App.css'
 import Experience from './components/Experience'
 import { SocialCard } from './components/SocialCard'
@@ -35,7 +38,7 @@ function App() {
   return (
     <>
 
-      <HeaderComponent pictureCV={pictureCV} pictureCV2={pictureCV2} >
+      <HeaderComponent pictureCV={pictureCV} pictureCV2={pictureCV2}>
         <SocialCard Title="Github" src={Github} href="https://github.com/higueromora" alt="github" />
         <SocialCard Title="LinkedIn" src={linkedin} href="https://www.linkedin.com/in/%C3%A1ngel-higuero-mora-9b3085349/" alt="LinkedIn" />
         <SocialCard Title="Email" src={EMAIL3} href="mailto:angelmoradev@gmail.com" alt="Email" />
@@ -52,6 +55,19 @@ function App() {
         <h1 className="title-project">Projects</h1>
       </div>
 
+      <ProjectCard
+        image={cat1}
+        image2={cat2}
+        projectName="Cat Attack"
+        description="Multiplayer game with socket,react and node."
+        icons={[
+          { icon: CSS, name: 'CSS' },
+          { icon: JAVASCRIPT, name: 'JavaScript' },
+          { icon: REACT, name: 'React' },
+          { icon: node, name: 'Node.JS' }
+        ]}
+        viewCodeLink="https://github.com/higueromora/multiplayerGame"
+      />
       <ProjectCard
         image={LinkApp}
         image2={LinkApp2}
