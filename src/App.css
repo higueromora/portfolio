@@ -76,7 +76,7 @@ header{
 /* Estilos CardSocials.jsx */
 .container_social_card{
     display: flex;
-    gap: 20px;
+    gap: 5px;
 }
 
 .socials{
@@ -89,6 +89,10 @@ header{
 }
 
 .social_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     transition: transform 0.3s ease; /* Agregar transición para el estado normal también */
 }
 
