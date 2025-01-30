@@ -228,6 +228,7 @@ header{
 
 .contact-button {
     background-color: #276951;
+    background: linear-gradient(to right, #0c2913, #2b6332, #243e25);
     transition: transform 0.25s ease-in-out;
 }
 
