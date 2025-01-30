@@ -20,8 +20,6 @@ import lovebyme from './assets/lovebyme.webp';
 import lovebyme2 from './assets/lovebyme.png';
 import LinkApp from './assets/LinksApp.webp';
 import LinkApp2 from './assets/LinksApp.png';
-import POKEAPI from './assets/POKEAPI.webp';
-import POKEAPI2 from './assets/POKEAPI.png';
 import cat1 from './assets/cat.webp';
 import cat2 from './assets/cat.jpg';
 import './App.css'
@@ -59,7 +57,7 @@ function App() {
         image={cat1}
         image2={cat2}
         projectName="Cat Attack"
-        description="Multiplayer game with socket,react and node."
+        description="Multiplayer game using Socket, React and Node."
         icons={[
           { icon: CSS, name: 'CSS' },
           { icon: JAVASCRIPT, name: 'JavaScript' },
@@ -81,18 +79,6 @@ function App() {
           { icon: SQL, name: 'MSQL' }
         ]}
         viewCodeLink="https://github.com/higueromora/links"
-      />
-      <ProjectCard
-        image={POKEAPI}
-        image2={POKEAPI2}
-        projectName="PokeAPI"
-        description="API about Pokémon. Search for Pokémon."
-        icons={[
-          { icon: CSS, name: 'CSS' },
-          { icon: JAVASCRIPT, name: 'JavaScript' },
-          { icon: REACT, name: 'React' }
-        ]}
-        viewCodeLink="https://github.com/higueromora/pokeapi"
       />
       <ProjectCard
         image={lovebyme}
