@@ -38,7 +38,7 @@ function App() {
 
       <HeaderComponent pictureCV={pictureCV} pictureCV2={pictureCV2}>
         <SocialCard Title="Github" src={Github} href="https://github.com/higueromora" alt="github" />
-        <SocialCard Title="LinkedIn" src={linkedin} href="https://www.linkedin.com/in/%C3%A1ngel-higuero-mora-9b3085349/" alt="LinkedIn" />
+        <SocialCard Title="LinkedIn" src={linkedin} href="https://www.linkedin.com/in/angel-higuero-mora/" alt="LinkedIn" />
         <SocialCard Title="Email" src={EMAIL3} href="mailto:angelmoradev@gmail.com" alt="Email" />
       </HeaderComponent>
 
