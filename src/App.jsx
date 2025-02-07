@@ -69,7 +69,7 @@ function App() {
         image={LinkApp}
         image2={LinkApp2}
         projectName="Links App"
-        description="Recolector de recursos online almacenados en cuentas de usuarios"
+        description="Recolector de recursos en la que cada usuario guarda sus propios links"
         icons={[
           { icon: CSS, name: 'CSS' },
           { icon: JAVASCRIPT, name: 'JavaScript' },
