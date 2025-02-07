@@ -2,6 +2,7 @@ import pictureCV from './assets/pictureCVNo.webp';
 import pictureCV2 from './assets/pictureCVNo.png';
 import Github from './assets/Github.svg';
 import linkedin from './assets/Linkedin.svg';
+import linkedin2 from './assets/Linkedin2.svg';
 // import CVPDF from './assets/CV.pdf';
 import PHP from './assets/PHP.svg';
 import SQL from './assets/SQL.svg';
@@ -37,7 +38,7 @@ function App() {
 
       <HeaderComponent pictureCV={pictureCV} pictureCV2={pictureCV2}>
         <SocialCard Title="Github" src={Github} href="https://github.com/higueromora" alt="github" />
-        <SocialCard Title="LinkedIn" src={linkedin} href="https://www.linkedin.com/in/angel-higuero-mora/" alt="LinkedIn" />
+        <SocialCard Title="LinkedIn" src={linkedin2} href="https://www.linkedin.com/in/angel-higuero-mora/" alt="LinkedIn" />
         <SocialCard Title="Email" src={EMAIL3} href="mailto:angelmoradev@gmail.com" alt="Email" />
       </HeaderComponent>
 
