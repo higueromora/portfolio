@@ -44,12 +44,12 @@ function App() {
       <hr className="custom-hr" />
 
       <Experience
-        title="Experience"
+        title="Experiencia"
         experiences={experiences}
       />
 
       <div className='project-h1'>
-        <h1 className="title-project">Projects</h1>
+        <h1 className="title-project">Proyectos</h1>
       </div>
 
       <ProjectCard
