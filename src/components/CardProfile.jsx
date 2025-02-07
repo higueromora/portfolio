@@ -8,7 +8,7 @@ export const CardProfile = ({ pictureCV, pictureCV2 }) => {
                     <img loading='eager' src={pictureCV2} alt="profile" style={{ width: '100%', borderRadius: '50%' }} />
                 </picture>
             </div>
-            <p className="category">Web developer</p>
+            <h2 className="category">Web developer</h2>
             <p className="about">Centrado en encontrar la combinación perfecta entre eficiencia técnica y experiencia del usuario
             </p>
         </div>

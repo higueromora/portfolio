@@ -28,6 +28,9 @@ import { experiences } from './constants/experiences'
 import { EmailContact } from './components/EmailContact'
 import ProjectCard from './components/ProjectCard'
 import HeaderComponent from './components/HeaderComponent'
+import { GithubIcon, LinkedinIcon, EmailIcon } from './components/icons/Icons';
+
+
 
 function App() {
 
@@ -36,10 +39,13 @@ function App() {
     <>
 
       <HeaderComponent pictureCV={pictureCV} pictureCV2={pictureCV2}>
-        <SocialCard Title="Github" src={Github} href="https://github.com/higueromora" alt="github" />
-        <SocialCard Title="LinkedIn" src={linkedin} href="https://www.linkedin.com/in/angel-higuero-mora/" alt="LinkedIn" />
-        <SocialCard Title="Email" src={EMAIL3} href="mailto:angelmoradev@gmail.com" alt="Email" />
       </HeaderComponent>
+      <nav className="nav-socials">
+        <SocialCard Title="Contáctame" icon={<EmailIcon />} href="mailto:angelmoradev@gmail.com" />
+        <SocialCard Title="LinkedIn" icon={<LinkedinIcon />} href="https://www.linkedin.com/in/angel-higuero-mora/" />
+        <SocialCard Title="Github" icon={<GithubIcon />} href="https://github.com/higueromora" />
+      </nav>
+
 
       <hr className="custom-hr" />
 

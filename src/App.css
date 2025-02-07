@@ -37,6 +37,28 @@ header{
     animation: fadeIn 1.2s ease-in-out;
 }
 
+.nav-socials{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.nav-socials a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0 0 0 1.2px rgb(247 237 237 / 50%);
+    padding: 1px 8px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-socials a:hover{
+    background-color: #143a47;
+}
 
 /* Estilos CardProfile.jsx */
 .card {
@@ -58,7 +80,7 @@ header{
     font-family: "Fredoka One", cursive;
     letter-spacing: 2px;
     font-size: 3rem;
-    background-image: linear-gradient(90deg, rgb(145 212 229) 0%, rgb(100 221 150) 84%, rgb(115 85 167) 100%);
+    background-image: linear-gradient(90deg, rgb(145 212 229) 0%, rgb(100 212 221) 84%, rgb(42 97 153) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -72,31 +94,16 @@ header{
 }
 
 /* Estilos CardSocials.jsx */
-.container_social_card{
-    display: flex;
-    gap: 5px;
-}
 
-.socials{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    gap: 14px;
-    margin-top: 8px;
-}
 
 .social_card {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    transition: transform 0.3s ease; /* Agregar transición para el estado normal también */
+    flex-direction: column; /* Agregar transición para el estado normal también */
 }
 
-.social_card:hover{
-    transform: scale(1.2);
-}
+
 
 .Title{
     font-size: 2.1rem;
@@ -166,8 +173,20 @@ header{
     font-size: 18px;
 }
 
+.footer-project{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+
 .project-button{
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 7px;
+    width: 110px;
     background-color: #143a47;
     box-shadow: 0 0 0 1.2px rgb(247 237 237 / 50%);
 }
@@ -264,9 +283,6 @@ a.project-button:hover {
     .custom-hr{
         margin: 4rem auto;
         width: 48rem;
-    }
-    .container_social_card {
-        flex-direction: column;
     }
     .projects{
         width: 100%;

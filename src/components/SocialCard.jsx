@@ -1,12 +1,13 @@
 
 
-export const SocialCard = ({ src, href, alt, Title }) => {
+export const SocialCard = ({ icon, href, Title }) => {
     return (
-        <div className="social_card">
+        <div className="social-card">
             <a href={href} target="_blank" rel="noreferrer">
-                <img src={src} alt={alt} />
+                {icon}
+                {Title}
             </a>
-            <p style={{ textAlign: 'center' }} >{Title} </p>
+            {/* <p style={{ textAlign: 'center' }} >{Title} </p> */}
         </div>
     )
 }
