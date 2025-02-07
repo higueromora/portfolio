@@ -1,20 +1,5 @@
 import pictureCV from './assets/pictureCVNo.webp';
 import pictureCV2 from './assets/pictureCVNo.png';
-import Github from './assets/Github.svg';
-import linkedin from './assets/Linkedin.svg';
-// import CVPDF from './assets/CV.pdf';
-import PHP from './assets/PHP.svg';
-import SQL from './assets/SQL.svg';
-import NODE from './assets/node.svg';
-import Laravel from './assets/Laravel.svg';
-import JQUERY from './assets/JQUERY.svg';
-import REACT from './assets/REACT.svg';
-import SASS from './assets/SASS.svg';
-import CSS from './assets/CSS.svg';
-import Bootstrap from './assets/BOOTSTRAP.svg';
-import JAVASCRIPT from './assets/JAVASCRIPT.svg';
-// import EMAIL2 from './assets/EMAIL2.svg';
-import EMAIL3 from './assets/EMAIL3.svg';
 import lovebyme from './assets/lovebyme2.webp';
 import lovebyme2 from './assets/lovebyme2.jpg';
 import LinkApp from './assets/LinkApp.webp';
@@ -28,7 +13,7 @@ import { experiences } from './constants/experiences'
 import { EmailContact } from './components/EmailContact'
 import ProjectCard from './components/ProjectCard'
 import HeaderComponent from './components/HeaderComponent'
-import { GithubIcon, LinkedinIcon, EmailIcon, CssIcon, JavascriptIcon, JqueryIcon, MysqlIcon, PhpIcon, LaravelIcon, ReactIcon, NodeIcon } from './components/icons/Icons';
+import { GithubIcon, LinkedinIcon, EmailIcon, JavascriptIcon, JqueryIcon, MysqlIcon, PhpIcon, LaravelIcon, ReactIcon, NodeIcon } from './components/icons/Icons';
 
 
 
@@ -66,7 +51,7 @@ function App() {
         icons={[
           { icon: <JavascriptIcon />, name: 'JavaScript', backgroundColor: '#796C00' },
           { icon: <ReactIcon />, name: 'React', backgroundColor: '#255A85' },
-          { icon: <JavascriptIcon />, name: 'Node.JS', backgroundColor: '#0B4D0A' }
+          { icon: <NodeIcon />, name: 'Node.JS', backgroundColor: '#0B4D0A' }
         ]}
         viewCodeLink="https://github.com/higueromora/multiplayerGame"
       />
