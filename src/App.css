@@ -14,6 +14,11 @@ header{
     font-size: 18px;
 }
 
+p{
+
+    color: #ebf1f3;
+}
+
 .separado {
     line-height: 1.8;
     margin-bottom: 1rem;
@@ -57,7 +62,7 @@ header{
 }
 
 .nav-socials a:hover{
-    background-color: #143a47;
+    background-color: #1f2937;
 }
 
 /* Estilos CardProfile.jsx */
@@ -68,7 +73,7 @@ header{
     border-radius: 20px;
     padding: 5px;
     box-shadow: #41c7fc33 0 15px 30px -5px;
-    background-color: #343335;
+    background-color: #1f2937;
     /* background-image: linear-gradient(90deg, rgb(67 120 123) 16%, rgb(33 76 89) 54%, rgb(23 81 93) 100%); */
     border-image-slice: 1;
     padding: 23px;
@@ -127,9 +132,15 @@ header{
     width: 80%;
 }
 
+
+
 .category{
-    color: #91d4e5;
+    color: #a9dfec;
     font-size: 1.5rem;
+}
+
+h3.category{
+    color: #c0d3d8;
 }
 
 .title-project{
@@ -187,7 +198,7 @@ header{
     gap: 5px;
     padding: 7px;
     width: 110px;
-    background-color: #143a47;
+    background-color: #1f2937;
     box-shadow: 0 0 0 1.2px rgb(247 237 237 / 50%);
 }
 
@@ -250,7 +261,7 @@ a.project-button:hover {
 
 .contact-button {
     margin-top: 10px;
-    background-color: #143a47;
+    background-color: #1f2937;
     box-shadow: 0 0 0 1.2px rgb(247 237 237 / 50%);
     transition: transform 0.25s ease-in-out;
 }
