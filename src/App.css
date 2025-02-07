@@ -169,6 +169,7 @@ header{
 .project-button{
     width: 50%;
     background-color: #143a47;
+    box-shadow: 0 0 0 1.2px rgb(247 237 237 / 50%);
 }
 
 a.project-button:hover {
@@ -229,7 +230,9 @@ a.project-button:hover {
 }
 
 .contact-button {
+    margin-top: 10px;
     background-color: #143a47;
+    box-shadow: 0 0 0 1.2px rgb(247 237 237 / 50%);
     transition: transform 0.25s ease-in-out;
 }
 
