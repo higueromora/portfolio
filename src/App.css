@@ -14,11 +14,6 @@ header{
     font-size: 18px;
 }
 
-p{
-
-    color: #ebf1f3;
-}
-
 .separado {
     line-height: 1.8;
     margin-bottom: 1rem;
@@ -58,11 +53,13 @@ p{
     gap: 5px;
     box-shadow: 0 0 0 1.2px rgb(247 237 237 / 50%);
     padding: 1px 8px;
+    background-color: #1f2937;
     transition: background-color 0.3s ease;
 }
 
 .nav-socials a:hover{
-    background-color: #1f2937;
+    background-color: rgba(146, 172, 179, 0.836);
+    color: #1f2937;
 }
 
 /* Estilos CardProfile.jsx */
@@ -101,13 +98,6 @@ p{
 /* Estilos CardSocials.jsx */
 
 
-.social_card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; /* Agregar transición para el estado normal también */
-}
-
 
 
 .Title{
@@ -132,15 +122,9 @@ p{
     width: 80%;
 }
 
-
-
 .category{
-    color: #a9dfec;
+    color: #91d4e5;
     font-size: 1.5rem;
-}
-
-h3.category{
-    color: #c0d3d8;
 }
 
 .title-project{
@@ -168,7 +152,7 @@ h3.category{
 .img-project {
     width: 100%;
     height: 100%;
-    max-height: 260px;
+    max-height: 271px;
     min-height: 260px;
     border-radius: 8px;
 }
@@ -180,7 +164,7 @@ h3.category{
     gap: 10px;
 }
 
-.project-details p{
+.project-details-p{
     font-size: 18px;
 }
 
@@ -208,7 +192,24 @@ a.project-button:hover {
 
 .icons{
     display: flex;
-    gap: 15px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
+}
+
+.icon-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0 0 0 0.2px rgb(247 237 237 / 50%);
+    padding: 1px 8px;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    
 }
 
 @keyframes appear {

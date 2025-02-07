@@ -15,10 +15,10 @@ import Bootstrap from './assets/BOOTSTRAP.svg';
 import JAVASCRIPT from './assets/JAVASCRIPT.svg';
 // import EMAIL2 from './assets/EMAIL2.svg';
 import EMAIL3 from './assets/EMAIL3.svg';
-import lovebyme from './assets/lovebyme.webp';
-import lovebyme2 from './assets/lovebyme.png';
-import LinkApp from './assets/LinksApp.webp';
-import LinkApp2 from './assets/LinksApp.png';
+import lovebyme from './assets/lovebyme2.webp';
+import lovebyme2 from './assets/lovebyme2.jpg';
+import LinkApp from './assets/LinkApp.webp';
+import LinkApp2 from './assets/LinkApp.jpg';
 import cat1 from './assets/cat.webp';
 import cat2 from './assets/cat.jpg';
 import './App.css'
@@ -28,7 +28,7 @@ import { experiences } from './constants/experiences'
 import { EmailContact } from './components/EmailContact'
 import ProjectCard from './components/ProjectCard'
 import HeaderComponent from './components/HeaderComponent'
-import { GithubIcon, LinkedinIcon, EmailIcon } from './components/icons/Icons';
+import { GithubIcon, LinkedinIcon, EmailIcon, CssIcon, JavascriptIcon, JqueryIcon, MysqlIcon, PhpIcon, LaravelIcon, ReactIcon, NodeIcon } from './components/icons/Icons';
 
 
 
@@ -64,10 +64,9 @@ function App() {
         projectName="Cat Attack"
         description="Juego multijugador usando Socket, React y Node.js"
         icons={[
-          { icon: CSS, name: 'CSS' },
-          { icon: JAVASCRIPT, name: 'JavaScript' },
-          { icon: REACT, name: 'React' },
-          { icon: NODE, name: 'Node.JS' }
+          { icon: <JavascriptIcon />, name: 'JavaScript', backgroundColor: '#796C00' },
+          { icon: <ReactIcon />, name: 'React', backgroundColor: '#255A85' },
+          { icon: <JavascriptIcon />, name: 'Node.JS', backgroundColor: '#0B4D0A' }
         ]}
         viewCodeLink="https://github.com/higueromora/multiplayerGame"
       />
@@ -77,11 +76,10 @@ function App() {
         projectName="Links App"
         description="Recolector de recursos en la que cada usuario guarda sus propios links"
         icons={[
-          { icon: CSS, name: 'CSS' },
-          { icon: JAVASCRIPT, name: 'JavaScript' },
-          { icon: JQUERY, name: 'jQuery' },
-          { icon: PHP, name: 'PHP' },
-          { icon: SQL, name: 'MSQL' }
+          { icon: <JavascriptIcon />, name: 'JavaScript', backgroundColor: '#796C00' },
+          { icon: <JqueryIcon />, name: 'jQuery', backgroundColor: '#2E4557' },
+          { icon: <PhpIcon />, name: 'PHP', backgroundColor: '#003159' },
+          { icon: <MysqlIcon />, name: 'MYSQL', backgroundColor: '#1D5079' }
         ]}
         viewCodeLink="https://github.com/higueromora/links"
       />
@@ -91,11 +89,11 @@ function App() {
         projectName="L💛veByMe"
         description="Combinación de Instagram clásico con match de tinder. Tiene un chat exclusivo para usuarios emparejados"
         icons={[
-          { icon: SASS, name: 'Sass' },
-          { icon: Bootstrap, name: 'Bootstrap' },
-          { icon: JQUERY, name: 'jQuery' },
-          { icon: SQL, name: 'SQL' },
-          { icon: Laravel, name: 'Laravel' }
+          { icon: <JavascriptIcon />, name: 'JavaScript', backgroundColor: '#796C00' },
+          { icon: <JqueryIcon />, name: 'jQuery', backgroundColor: '#2E4557' },
+          { icon: <PhpIcon />, name: 'PHP', backgroundColor: '#003159' },
+          { icon: <MysqlIcon />, name: 'MYSQL', backgroundColor: '#1D5079' },
+          { icon: <LaravelIcon />, name: 'Laravel', backgroundColor: '#171A1C' }
         ]}
         viewCodeLink="https://github.com/higueromora/DatingApp-LoveByMe-Laravel"
       />
