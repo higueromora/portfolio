@@ -2,11 +2,11 @@ export const experiences = [
     {
       role: "Full Stack Web Developer",
       company: "TechnoTouch",
-      period: "April - December 2024 | 9 months",
-      description: `Development of an app for real estate management using HTML, CSS, jQuery, PHP, SQL and 
-                    Updating legacy code with jQuery and PHP. `,
-      description2: `Development of a website and creation of a multivendor platform and hooks for WordPress, along with analysis of SQL databases linked to a commercial weighing scale. 
-      The goal is to connect WordPress products and the balance through SQL queries.`, 
-      description3: `Optimization of performance and responsive interface design to enhance user experience on both mobile and desktop devices .`,          
+      period: "Abril - Diciembre 2024 | 9 meses",
+      description: `Desarrollo de una app de gestión inmobiliaria con tiendas, anuncios y asignación de vendedores. Diseñé la interfaz, la base de datos e implementé un sistema de QR para acceder a los anuncios desde el móvil.
+      `,
+      description2: `
+      Creación de una plataforma multivendor en WordPress para un mercado con carnicerías y pescaderías. Su objetivo es sincronizar automáticamente los productos de la balanza con el multivendor a través de la base de datos.`, 
+      description3: `Desarrollo de una página web cumpliendo las reglas accesibilidad WACC para dar a conocer productos y servicios`,          
     }
   ];

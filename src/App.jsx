@@ -13,7 +13,6 @@ import SASS from './assets/SASS.svg';
 import CSS from './assets/CSS.svg';
 import Bootstrap from './assets/BOOTSTRAP.svg';
 import JAVASCRIPT from './assets/JAVASCRIPT.svg';
-import EMAIL from './assets/EMAIL.svg';
 // import EMAIL2 from './assets/EMAIL2.svg';
 import EMAIL3 from './assets/EMAIL3.svg';
 import lovebyme from './assets/lovebyme.webp';
@@ -57,7 +56,7 @@ function App() {
         image={cat1}
         image2={cat2}
         projectName="Cat Attack"
-        description="Multiplayer game using Socket, React and Node."
+        description="Juego multijugador usando Socket, React y Node.js"
         icons={[
           { icon: CSS, name: 'CSS' },
           { icon: JAVASCRIPT, name: 'JavaScript' },
@@ -70,7 +69,7 @@ function App() {
         image={LinkApp}
         image2={LinkApp2}
         projectName="Links App"
-        description="Online resource collector. A place where you can group your links resources."
+        description="Recolector de recursos online almacenados en cuentas de usuarios"
         icons={[
           { icon: CSS, name: 'CSS' },
           { icon: JAVASCRIPT, name: 'JavaScript' },
@@ -84,7 +83,7 @@ function App() {
         image={lovebyme}
         image2={lovebyme2}
         projectName="L💛veByMe"
-        description="Combinate classic Instagram with Tinder-style matching and chat exclusive for matched users. Using APIs Pusher and Mailtrap."
+        description="Combinación de Instagram clásico con match de tinder que tiene un chat exclusivo para usuarios emparejados"
         icons={[
           { icon: SASS, name: 'Sass' },
           { icon: Bootstrap, name: 'Bootstrap' },
@@ -95,7 +94,7 @@ function App() {
         viewCodeLink="https://github.com/higueromora/DatingApp-LoveByMe-Laravel"
       />
 
-      <EmailContact email={EMAIL} />
+      <EmailContact />
 
     </>
   )

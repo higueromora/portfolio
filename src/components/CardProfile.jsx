@@ -11,7 +11,7 @@ export const CardProfile = ({ pictureCV, pictureCV2 }) => {
                 </div>
                 <p className="category">Web developer</p>
                 <p className="about">
-                    Passionate about software development. Focused on finding the perfect combination between technical efficiency and user experience.
+                    Apasionado por el desarrollo de software. Centrado en encontrar la combinación perfecta entre eficiencia técnica y experiencia del usuario
                 </p>
             </div>
         </div>

@@ -1,6 +1,6 @@
 
 
-export const EmailContact = ({ email }) => {
+export const EmailContact = () => {
     return (
         <div className='container-email'>
             <div className='title-email'>
@@ -11,7 +11,6 @@ export const EmailContact = ({ email }) => {
                 <a className='contact-button' href="mailto:angelmoradev@gmail.com">
                     Click here to contact me
                 </a>
-                <img loading='lazy' src={email} alt="email icon" />
             </div>
         </div>
     )

@@ -123,7 +123,7 @@ header{
 }
 
 .category{
-    color: rgb(145 212 229);
+    color: #91d4e5;
     font-size: 1.5rem;
 }
 
@@ -170,7 +170,7 @@ header{
 
 .project-button{
     width: 50%;
-    background-color: #174351;
+    background-color: #1d4d5d;
 }
 
 .icons{
@@ -227,8 +227,8 @@ header{
 }
 
 .contact-button {
-    background-color: #276951;
-    background: linear-gradient(to right, #0c2913, #2b6332, #243e25);
+    background-color: #1d5c6f;
+    background: linear-gradient(to right, #1d5c6f, #1d5c6f, #1d5c6f);
     transition: transform 0.25s ease-in-out;
 }
 
