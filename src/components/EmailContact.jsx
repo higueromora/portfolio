@@ -9,7 +9,7 @@ export const EmailContact = () => {
             </div>
             <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
                 <a className='contact-button' href="mailto:angelmoradev@gmail.com">
-                    Click here to contact me
+                    Contáctame
                 </a>
             </div>
         </div>
