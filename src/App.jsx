@@ -83,7 +83,7 @@ function App() {
         image={lovebyme}
         image2={lovebyme2}
         projectName="L💛veByMe"
-        description="Combinación de Instagram clásico con match de tinder que tiene un chat exclusivo para usuarios emparejados"
+        description="Combinación de Instagram clásico con match de tinder. Tiene un chat exclusivo para usuarios emparejados"
         icons={[
           { icon: SASS, name: 'Sass' },
           { icon: Bootstrap, name: 'Bootstrap' },
