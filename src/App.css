@@ -38,6 +38,17 @@ header{
     animation: fadeIn 1.2s ease-in-out;
 }
 
+
+
+.experience {
+    animation: fadeIn 1.2s ease-in-out;
+    animation-delay: 0.5s; /* Retraso de 0.5s */
+    opacity: 0; /* Para que no sea visible antes de la animación */
+    animation-fill-mode: forwards; /* Mantiene el estado final de la animación */
+}
+
+
+
 /* .picture-container img,
 .picture-container source {
     animation: fadeIn 1.2s ease-in-out;
