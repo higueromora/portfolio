@@ -19,6 +19,7 @@ header{
     margin-bottom: 1rem;
     margin-top: 1rem;
     font-size: 18px;
+    color: #cae0e5;
 }
 
 @keyframes fadeIn {
@@ -58,7 +59,7 @@ header{
 }
 
 .nav-socials a:hover{
-    background-color: rgba(146, 172, 179, 0.836);
+    background-color: #ffffff;
     color: #1f2937;
 }
 
@@ -78,16 +79,17 @@ header{
   
 
 
-.name{
+.name {
     font-family: "Fredoka One", cursive;
     letter-spacing: 2px;
     font-size: 3rem;
-    background-image: linear-gradient(90deg, rgb(145 212 229) 0%, rgb(100 212 221) 84%, rgb(42 97 153) 100%);
+    background-image: linear-gradient(135deg, #b9f1ff, #3f8597);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     background-size: 100%;
 }
+
 
 
 
@@ -123,8 +125,12 @@ header{
 }
 
 .category{
-    color: #91d4e5;
+    color: #b9f1ff;
     font-size: 1.5rem;
+}
+
+h3.category{
+    color: #9fa2a3; 
 }
 
 .title-project{
@@ -166,6 +172,7 @@ header{
 
 .project-details-p{
     font-size: 18px;
+    color: #cae0e5;
 }
 
 .footer-project{
