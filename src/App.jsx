@@ -14,8 +14,7 @@ import { EmailContact } from './components/EmailContact'
 import ProjectCard from './components/ProjectCard'
 import HeaderComponent from './components/HeaderComponent'
 import { GithubIcon, LinkedinIcon, EmailIcon, JavascriptIcon, JqueryIcon, MysqlIcon, PhpIcon, LaravelIcon, ReactIcon, NodeIcon } from './components/icons/Icons';
-
-
+import osito from './assets/osito.gif'
 
 function App() {
 
@@ -83,7 +82,7 @@ function App() {
         viewCodeLink="https://github.com/higueromora/DatingApp-LoveByMe-Laravel"
       />
 
-      <EmailContact />
+      <EmailContact osito={osito} />
 
     </>
   )

@@ -1,8 +1,9 @@
 
 
-export const EmailContact = () => {
+export const EmailContact = ({ osito }) => {
     return (
         <div className='container-email'>
+            <img loading='lazy' src={osito} alt="Hola" />
             <div className='title-email'>
                 <h1>angelmoradev@gmail.com </h1>
 
