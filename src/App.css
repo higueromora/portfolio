@@ -90,7 +90,7 @@ header{
     background-color: #1f2937;
     /* background-image: linear-gradient(90deg, rgb(67 120 123) 16%, rgb(33 76 89) 54%, rgb(23 81 93) 100%); */
     border-image-slice: 1;
-    padding: 23px;
+    padding: 23px 33px;
 }
   
 
