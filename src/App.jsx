@@ -1,5 +1,3 @@
-import pictureCV from './assets/pictureCVNo.webp';
-import pictureCV2 from './assets/pictureCVNo.png';
 import lovebyme from './assets/lovebyme2.webp';
 import lovebyme2 from './assets/lovebyme2.jpg';
 import LinkApp from './assets/LinkApp.webp';
@@ -15,6 +13,8 @@ import ProjectCard from './components/ProjectCard'
 import HeaderComponent from './components/HeaderComponent'
 import { GithubIcon, LinkedinIcon, EmailIcon, JavascriptIcon, JqueryIcon, MysqlIcon, PhpIcon, LaravelIcon, ReactIcon, NodeIcon } from './components/icons/Icons';
 import osito from './assets/osito.gif'
+const pictureCV = "https://angelhm-portfolio.vercel.app/assets/pictureCVNo-ChEmhbJy.webp";
+const pictureCV2 = "https://angelhm-portfolio.vercel.app/assets/pictureCVNo.png";
 
 function App() {
 
