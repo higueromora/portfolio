@@ -19,7 +19,7 @@ header{
     margin-bottom: 1rem;
     margin-top: 1rem;
     font-size: 18px;
-    color: #cae0e5;
+    color: #ecf0f1;
 }
 
 @keyframes fadeIn {
@@ -185,7 +185,7 @@ h3.category{
 
 .project-details-p{
     font-size: 18px;
-    color: #cae0e5;
+    color: #ecf0f1;
 }
 
 .footer-project{
