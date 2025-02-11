@@ -5,7 +5,7 @@ const ProjectCard = ({ image, image2, projectName, description, icons, name, vie
         <section className='container-project'>
             <div className="projects">
                 <picture className="img-project">
-                    <source className="img-project" srcSet={image} type="image/webp" />
+                    <source loading='lazy' className="img-project" srcSet={image} type="image/webp" />
                     <img loading='lazy' className="img-project" src={image2} alt={`${projectName} screenshot`} />
                 </picture>
                 <div className="project-details">
