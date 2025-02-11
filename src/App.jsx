@@ -1,4 +1,4 @@
-import pictureCV from '/assets/pictureCVNo.webp';
+import pictureCV from './assets/pictureCVNo.webp';
 import pictureCV2 from './assets/pictureCVNo.png';
 import lovebyme from './assets/lovebyme2.webp';
 import lovebyme2 from './assets/lovebyme2.jpg';
