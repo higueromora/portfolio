@@ -6,6 +6,8 @@ import LinkApp from './assets/LinkApp.webp';
 import LinkApp2 from './assets/LinkApp.jpg';
 import cat1 from './assets/cat.webp';
 import cat2 from './assets/cat.jpg';
+import gym1 from './assets/gym.jpg'
+import gym2 from './assets/gym.webp'
 import './App.css'
 import Experience from './components/Experience'
 import { SocialCard } from './components/SocialCard'
@@ -13,7 +15,7 @@ import { experiences } from './constants/experiences'
 import { EmailContact } from './components/EmailContact'
 import ProjectCard from './components/ProjectCard'
 import HeaderComponent from './components/HeaderComponent'
-import { GithubIcon, LinkedinIcon, EmailIcon, JavascriptIcon, JqueryIcon, MysqlIcon, PhpIcon, LaravelIcon, ReactIcon, NodeIcon } from './components/icons/Icons';
+import { GithubIcon, LinkedinIcon, EmailIcon, JavascriptIcon, JqueryIcon, MysqlIcon, PhpIcon, LaravelIcon, ReactIcon, NodeIcon, TypescriptIcon, TailwindcssIcon } from './components/icons/Icons';
 import osito from './assets/osito.gif'
 
 function App() {
@@ -42,6 +44,19 @@ function App() {
         <h1 className="title-project">Proyectos</h1>
       </div>
 
+      <ProjectCard
+        image={gym1}
+        image2={gym2}
+        projectName="Gym"
+        description="Landing page de un gym"
+        icons={[
+          { icon: <TailwindcssIcon />, name: 'Tailwindcss', backgroundColor: '#025A85' },
+          { icon: <TypescriptIcon />, name: 'Typescript.JS', backgroundColor: '#2c5472' },
+          { icon: <ReactIcon />, name: 'React', backgroundColor: '#255A85' },
+        ]}
+        viewCodeLink="https://github.com/higueromora/gym-landing-page"
+        viewDemoLink="https://gym-landing-page-ivory.vercel.app/"
+      />
       <ProjectCard
         image={cat1}
         image2={cat2}
