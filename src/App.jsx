@@ -48,7 +48,7 @@ function App() {
         image={gym1}
         image2={gym2}
         projectName="Gym"
-        description="Landing page de un gym"
+        description="Gym Landing page"
         icons={[
           { icon: <TailwindcssIcon />, name: 'Tailwindcss', backgroundColor: '#025A85' },
           { icon: <TypescriptIcon />, name: 'Typescript.JS', backgroundColor: '#2c5472' },
