@@ -16,7 +16,6 @@ import { EmailContact } from './components/EmailContact'
 import ProjectCard from './components/ProjectCard'
 import HeaderComponent from './components/HeaderComponent'
 import { GithubIcon, LinkedinIcon, EmailIcon, JavascriptIcon, JqueryIcon, MysqlIcon, PhpIcon, LaravelIcon, ReactIcon, NodeIcon, TypescriptIcon, TailwindcssIcon } from './components/icons/Icons';
-import osito from './assets/osito.gif'
 
 function App() {
 
@@ -27,7 +26,7 @@ function App() {
       <HeaderComponent pictureCV={pictureCV} pictureCV2={pictureCV2}>
       </HeaderComponent>
       <nav className="nav-socials">
-        <SocialCard Title="Contáctame" icon={<EmailIcon />} href="mailto:angelmoradev@gmail.com" />
+        <SocialCard Title="Email" icon={<EmailIcon />} href="mailto:angelmoradev@gmail.com" />
         <SocialCard Title="LinkedIn" icon={<LinkedinIcon />} href="https://www.linkedin.com/in/angel-higuero-mora/" />
         <SocialCard Title="Github" icon={<GithubIcon />} href="https://github.com/higueromora" />
       </nav>
@@ -97,7 +96,7 @@ function App() {
         viewCodeLink="https://github.com/higueromora/DatingApp-LoveByMe-Laravel"
       />
 
-      <EmailContact osito={osito} />
+      <EmailContact />
 
     </>
   )
